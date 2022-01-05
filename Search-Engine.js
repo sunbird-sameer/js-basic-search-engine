@@ -1,8 +1,8 @@
 // Import the filesystem module
 //const fs = require("fs");
-import {fs} from 'C:\\Users\\srigo\\Documents\\GitHub\\node\\lib\\fs.js'
+const fs = require('fs')
 
-let directory_name = "C:\\Users\\srigo\\Downloads\\Search-Engine";
+let directory_name = "dir_name";
 
 let filenames = fs.readdirSync(directory_name);
   
